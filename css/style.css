@@ -13,6 +13,8 @@ header {
   left: 0;
   width: 100%;
   padding: 20px;
+  background-color:rgba(0,0,0,0.69);
+  backdrop-filter: blur(10px)
 }
 
 header .navbar {
@@ -84,7 +86,7 @@ header .navbar {
   padding-top: 10%;
   background-color: #090604;
   width: 100%;
-  height: 100vh;
+  height: 200vh;
 }
 
 .aboutInfo{
@@ -200,4 +202,13 @@ header .navbar {
   .hero-section .content button {
     padding: 9px 18px;
   }
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 400ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
 }
