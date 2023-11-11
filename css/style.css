@@ -91,7 +91,7 @@ header .navbar {
   padding-top: 10%;
   background-color: #090604;
   width: 100%;
-  height: 2400px;
+  height: 2000px;
 }
 
 .aboutInfo{
@@ -274,4 +274,62 @@ header .navbar {
     padding: 9px 18px;
   }
 }
+.section-bg{
+  padding-top: 30%;
+  background-color: #090604;
+  width: 100%;
+  height: 100%;
+}
+.section-header h3 {
+    padding-top: 10%;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+}
 
+.section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #fff;
+    width: 50%;
+}
+
+#clients {
+    padding: 60px 0;
+    
+}
+#clients .clients-wrap {
+    border-top: 0
+    border-left: 0
+    margin-bottom: 30px;
+}
+
+#clients .client-logo {
+    padding: 64px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-right: ;
+    border-bottom: 0;
+    overflow: hidden;
+    background: #090604;
+    height: 160px;
+}
+
+#clients img {
+    transition: all 0.4s ease-in-out;
+}
+ 
