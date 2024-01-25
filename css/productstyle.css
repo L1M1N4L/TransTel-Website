@@ -79,7 +79,7 @@ body {
 }
 
 .product {
-  width: calc(33.33% - 20px);
+  width: calc(30.33% - 20px);
   margin-bottom: 20px;
   box-sizing: border-box;
   background-color: #fff;
