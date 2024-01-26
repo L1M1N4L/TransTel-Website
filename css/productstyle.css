@@ -75,18 +75,20 @@ body {
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .product {
   width: calc(30.33% - 20px);
-  margin-bottom: 20px;
+  margin-top: 3%;
+  margin-bottom: 1%;
   box-sizing: border-box;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
+  margin-left: 3%;
 }
 
 .product:hover {
@@ -103,6 +105,7 @@ body {
 .product-info {
   padding: 15px;
 }
+
 
 /* Mobile Buttons */
 
