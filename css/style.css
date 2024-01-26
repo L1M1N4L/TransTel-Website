@@ -271,6 +271,9 @@ header .navbar {
   .hero-section .content button {
     padding: 9px 18px;
   }
+  #clients  {
+    padding:auto;
+}
 }
 .section-bg{
   padding-top: 30%;
@@ -301,9 +304,10 @@ header .navbar {
     
 }
 #clients .clients-wrap {
-    border-top: 0
-    border-left: 0
-    margin-bottom: 30px;
+  border-top: 0;
+  border-left: 0;
+  margin-bottom: 30px;
+  overflow: hidden;
 }
 
 #clients .client-logo {
@@ -330,102 +334,6 @@ header .navbar {
 #clients img {
     transition: all 0.4s ease-in-out;
 }
-.fh5co-bg {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.fh5co-bg {
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  width: 100%;
-  float: left;
-}
-.fh5co-bg .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.fh5co-bg-section {
-  background: rgba(0, 0, 0, 0.05);
-}
-
-#fh5co-footer {
-  padding: 7em 0;
-  clear: both;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-footer {
-    padding: 3em 0;
-  }
-}
-
-#fh5co-footer {
-  position: relative;
-}
-#fh5co-footer .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-#fh5co-footer h3 {
-  margin-bottom: 15px;
-  font-weight: bold;
-  font-size: 15px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.8);
-}
-#fh5co-footer .fh5co-footer-links {
-  padding: 0;
-  margin: 0;
-}
-#fh5co-footer .fh5co-footer-links li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-#fh5co-footer .fh5co-footer-links li a {
-  color: rgba(255, 255, 255, 0.5);
-  text-decoration: none;
-}
-#fh5co-footer .fh5co-footer-links li a:hover {
-  text-decoration: underline;
-}
-#fh5co-footer .fh5co-widget {
-  margin-bottom: 30px;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-footer .fh5co-widget {
-    text-align: left;
-  }
-}
-#fh5co-footer .fh5co-widget h3 {
-  margin-bottom: 15px;
-  font-weight: bold;
-  font-size: 15px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-#fh5co-footer .copyright .block {
-  display: block;
-}
 
 
 .btn-primary {
@@ -445,4 +353,162 @@ header .navbar {
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #F85A16;
   color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:active,
+a:focus {
+    color: #000; /* Set link color to black */
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.btn {
+    padding: 14px 25px;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.red-btn {
+    background: #000; /* Set background color to black */
+    border: 2px solid #000; /* Set border color to black */
+    color: #fff; /* Set text color to white */
+}
+
+.red-btn:hover {
+    background: #fff; /* Change background color on hover to white */
+    color: #000; /* Change text color on hover to black */
+    border-color: #000; /* Change border color on hover to black */
+}
+
+/*---------footer---------*/
+footer {
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    padding: 10px 0;
+    font-size: 17px;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left:30px;
+}
+
+footer h4 {
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.about-footer li {
+    padding-top: 20px;
+    padding-left: 0rem;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+footer a {  
+    color: #fff;
+}
+
+footer a:hover {
+    color: #f96c2f; /* Change text color on hover to black */
+}
+
+.footer-title {
+    border-bottom: 2px solid #fff; /* Set border color to white */
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+}
+
+ul.footer-social i {
+    background: #fff; /* Set background color to white */
+    color: #000; /* Set text color to black */
+}
+
+ul.footer-social i:hover {
+    background: #000; /* Change background color on hover to black */
+    color: #fff; /* Change text color on hover to white */
+}
+
+.page-more-info li {
+    margin-bottom: 31px;
+}
+
+footer .table td:first-child {
+    font-weight: 600;
+    padding-left: 33px;
+}
+
+footer .table td:last-child {
+    text-align: right;
+}
+
+footer .table td {
+    padding: 0px;
+    border: 0;
+}
+
+footer hr {
+    border-color: #fff; /* Set border color to white */
+}
+
+.footer-bottom p {
+    text-align: right;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}
+
+.open-hours hr {
+    margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .section-bg{
+    padding-top: 30%;
+    background-color: #090604;
+    width: 100%;
+    height: 190%;
+  }
+  .aboutUs{
+    box-sizing: border-box;
+    padding-top: 10%;
+    background-color: #090604;
+    width: 100%;
+    height: 6000px;
+  }
+  
 }
