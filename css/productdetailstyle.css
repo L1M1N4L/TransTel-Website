@@ -1,4 +1,3 @@
-* HEADER */
 
 header {
   position: fixed;
@@ -18,15 +17,14 @@ header .navbar {
   margin: 0 auto;
 }
 
-.navbar .logo {
-  color: #333; /* Changed text color to dark */
-  font-weight: 600;
-  font-size: 2.1rem;
-  text-decoration: none;
+.navbar .logo img {
+  width: 200px; /* Adjust the width of the logo image */
+  height: auto; /* Maintain the aspect ratio of the logo */
 }
 
 .navbar .logo span {
   color: #C06B3E;
+  
 }
 
 .navbar .menu-links {
@@ -63,6 +61,7 @@ header .navbar {
   *::before,
   *::after {
     box-sizing: border-box;
+
   }
   
   body {
@@ -182,11 +181,7 @@ header .navbar {
     text-transform: uppercase;
   }
   
-  /* Price Styles */
-  .price {
-    margin: 0;
-  }
-  
+
   /* Breadcrumb Styles */
   .breadcrumb-list {
     display: flex;
@@ -259,7 +254,7 @@ header .navbar {
   
   /* Product Image Styles */
   .product-image {
-    display: none;
+    display: flex;
   }
   
   /* Image List Styles */
@@ -267,7 +262,7 @@ header .navbar {
     margin: 0;
   }
   /* Mobile Buttons */
-
+  
 #hamburger-btn,
 #close-menu-btn {
   position: absolute;
@@ -318,6 +313,7 @@ header .navbar {
       transition: opacity 0.3s ease;
       cursor: pointer;
     }
+    
   
     .image-list img:hover {
       opacity: 0.7;
@@ -358,6 +354,7 @@ header .navbar {
     border-radius: 8px;
     flex: 1;
   }
+
   
   .features h2 {
     color: #333;
@@ -365,7 +362,8 @@ header .navbar {
   
   .features ul {
     list-style-type: none;
-    padding: 0;
+    padding: ;
+    list-style-type: disc; /* Default bullet style */
   }
   
   .features li {
@@ -406,12 +404,23 @@ header .navbar {
       margin-bottom: 20px;
       flex: auto; /* Allow them to take full width in the column layout */
     }
+   
   }
-  
+  @media (max-width: 1200px) {
+    .navbar .logo  {
+      padding-left:5%;
+      padding-top:3%;
+    }
+}
   @media screen and (max-width: 768px) {
     #hamburger-btn,
     #close-menu-btn {
       display: block;
+    }
+
+    .image-list {
+      display: none;
+      overflow: hidden;
     }
 
     .navbar .logo {

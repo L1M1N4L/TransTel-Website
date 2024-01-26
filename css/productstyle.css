@@ -27,15 +27,14 @@ header .navbar {
   margin: 0 auto;
 }
 
-.navbar .logo {
-  color: #333; /* Changed text color to dark */
-  font-weight: 600;
-  font-size: 2.1rem;
-  text-decoration: none;
+.navbar .logo img {
+  width: 200px; /* Adjust the width of the logo image */
+  height: auto; /* Maintain the aspect ratio of the logo */
 }
 
 .navbar .logo span {
   color: #C06B3E;
+  
 }
 
 .navbar .menu-links {
@@ -123,6 +122,10 @@ body {
   #hamburger-btn,
   #close-menu-btn {
     display: block;
+  }
+  .navbar .logo  {
+    padding-left:5%;
+    padding-top:3%;
   }
 
   .navbar .menu-links {
